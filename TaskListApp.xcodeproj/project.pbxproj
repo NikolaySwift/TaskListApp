@@ -14,6 +14,7 @@
 		8D8BDC482C7CE2FF0030CD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D8BDC472C7CE2FF0030CD76 /* Assets.xcassets */; };
 		8D8BDC4B2C7CE2FF0030CD76 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8D8BDC4A2C7CE2FF0030CD76 /* Base */; };
 		8D8BDC552C7CF15E0030CD76 /* FilledButtonFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8BDC542C7CF15E0030CD76 /* FilledButtonFactory.swift */; };
+		8DFBD5BE2C7E413B0094DC5B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFBD5BD2C7E413B0094DC5B /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8D8BDC4A2C7CE2FF0030CD76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D8BDC4C2C7CE2FF0030CD76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D8BDC542C7CF15E0030CD76 /* FilledButtonFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButtonFactory.swift; sourceTree = "<group>"; };
+		8DFBD5BD2C7E413B0094DC5B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		8D8BDC3A2C7CE2FE0030CD76 /* TaskListApp */ = {
 			isa = PBXGroup;
 			children = (
+				8D8BDC542C7CF15E0030CD76 /* FilledButtonFactory.swift */,
 				8DFBD5BC2C7E40FD0094DC5B /* Services */,
 				8DFBD5B82C7E40650094DC5B /* App */,
 				8DFBD5B92C7E40700094DC5B /* ViewControllers */,
@@ -81,7 +84,6 @@
 			isa = PBXGroup;
 			children = (
 				8D8BDC3F2C7CE2FE0030CD76 /* TaskListViewController.swift */,
-				8D8BDC542C7CF15E0030CD76 /* FilledButtonFactory.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -106,6 +108,7 @@
 		8DFBD5BC2C7E40FD0094DC5B /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8DFBD5BD2C7E413B0094DC5B /* StorageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				8D8BDC462C7CE2FE0030CD76 /* TaskListApp.xcdatamodeld in Sources */,
 				8D8BDC552C7CF15E0030CD76 /* FilledButtonFactory.swift in Sources */,
 				8D8BDC402C7CE2FE0030CD76 /* TaskListViewController.swift in Sources */,
+				8DFBD5BE2C7E413B0094DC5B /* StorageManager.swift in Sources */,
 				8D8BDC3C2C7CE2FE0030CD76 /* AppDelegate.swift in Sources */,
 				8D8BDC3E2C7CE2FE0030CD76 /* SceneDelegate.swift in Sources */,
 			);
