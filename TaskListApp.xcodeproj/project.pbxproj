@@ -58,16 +58,56 @@
 		8D8BDC3A2C7CE2FE0030CD76 /* TaskListApp */ = {
 			isa = PBXGroup;
 			children = (
-				8D8BDC3B2C7CE2FE0030CD76 /* AppDelegate.swift */,
-				8D8BDC3D2C7CE2FE0030CD76 /* SceneDelegate.swift */,
-				8D8BDC3F2C7CE2FE0030CD76 /* TaskListViewController.swift */,
-				8D8BDC542C7CF15E0030CD76 /* FilledButtonFactory.swift */,
-				8D8BDC472C7CE2FF0030CD76 /* Assets.xcassets */,
-				8D8BDC492C7CE2FF0030CD76 /* LaunchScreen.storyboard */,
-				8D8BDC4C2C7CE2FF0030CD76 /* Info.plist */,
-				8D8BDC442C7CE2FE0030CD76 /* TaskListApp.xcdatamodeld */,
+				8DFBD5BC2C7E40FD0094DC5B /* Services */,
+				8DFBD5B82C7E40650094DC5B /* App */,
+				8DFBD5B92C7E40700094DC5B /* ViewControllers */,
+				8DFBD5BA2C7E40840094DC5B /* Storyboards */,
+				8DFBD5BB2C7E409A0094DC5B /* Sources */,
 			);
 			path = TaskListApp;
+			sourceTree = "<group>";
+		};
+		8DFBD5B82C7E40650094DC5B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8D8BDC4C2C7CE2FF0030CD76 /* Info.plist */,
+				8D8BDC3B2C7CE2FE0030CD76 /* AppDelegate.swift */,
+				8D8BDC3D2C7CE2FE0030CD76 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8DFBD5B92C7E40700094DC5B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D8BDC3F2C7CE2FE0030CD76 /* TaskListViewController.swift */,
+				8D8BDC542C7CF15E0030CD76 /* FilledButtonFactory.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8DFBD5BA2C7E40840094DC5B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8D8BDC492C7CE2FF0030CD76 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8DFBD5BB2C7E409A0094DC5B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8D8BDC442C7CE2FE0030CD76 /* TaskListApp.xcdatamodeld */,
+				8D8BDC472C7CE2FF0030CD76 /* Assets.xcassets */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8DFBD5BC2C7E40FD0094DC5B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +330,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8K9SVXDGK9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskListApp/Info.plist;
+				INFOPLIST_FILE = TaskListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -322,7 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8K9SVXDGK9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TaskListApp/Info.plist;
+				INFOPLIST_FILE = TaskListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
